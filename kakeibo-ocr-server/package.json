@@ -1,0 +1,13 @@
+{
+  "name": "tesseract-ocr-api",
+  "version": "1.0.0",
+  "description": "External Tesseract OCR API for GAS Kakeibo BOT",
+  "main": "api/ocr.js",
+  "scripts": {
+    "start": "node api/ocr.js"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "tesseract.js": "^5.1.0"
+  }
+}
